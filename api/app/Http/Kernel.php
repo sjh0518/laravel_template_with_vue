@@ -15,6 +15,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+        //ADD>>> PUKYO.shenjianghui 2021-10-20 禅道0 添加对跨域的支持
+        \Fruitcake\Cors\HandleCors::class,
+        //<<<ADD PUKYO.shenjianghui 2021-10-20 禅道0 添加对跨域的支持
         \App\Http\Middleware\TrustProxies::class,
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
