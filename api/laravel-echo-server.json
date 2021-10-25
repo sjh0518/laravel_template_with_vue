@@ -1,10 +1,19 @@
 {
-	"authHost": "http://lv6.template.test",
-	"authEndpoint": "/api/broadcasting/auth",
-	"clients": [],
+	"authHost": "http://localhost",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "c515ec7152786b27",
+			"key": "3afbbd9466674e24a2075c12af24509f"
+		}
+	],
 	"database": "redis",
 	"databaseConfig": {
-		"redis": {},
+        "redis" : {
+            "port": "6379",
+            "host": "redis",
+            "keyPrefix": "laravelvue"
+        },
 		"sqlite": {
 			"databasePath": "/database/laravel-echo-server.sqlite"
 		}
