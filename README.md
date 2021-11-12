@@ -223,3 +223,6 @@ https://v.qq.com/x/page/t3059mfpgkg.html
 # License
 
 [MIT](https://github.com/wmhello/laravel_template_with_vue/blob/master/LICENSE)
+
+yarn global add @quasar/cli
+PUKYO_API=http://oaadmin.test/ quasar dev

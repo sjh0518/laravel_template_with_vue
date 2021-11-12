@@ -165,6 +165,9 @@ return [
         /*
          * Package Service Providers...
          */
+        //ADD>>> PUKYO.shenjianghui 2021-11-12 禅道0 添加阿里云oss服务提供者
+        Jacobcyl\AliOSS\AliOssServiceProvider::class,
+        //<<<ADD PUKYO.shenjianghui 2021-11-12 禅道0 添加阿里云oss服务提供者
 
         /*
          * Application Service Providers...
@@ -174,6 +177,7 @@ return [
         App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
 
     ],
 

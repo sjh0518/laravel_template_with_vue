@@ -12,6 +12,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "~6.0",
+        "jacobcyl/ali-oss-storage": "^2.1",
         "laravel/framework": "6.20.*",
         "laravel/passport": "9.*",
         "laravel/socialite": "^5.2",
